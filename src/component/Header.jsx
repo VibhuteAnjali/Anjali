@@ -14,7 +14,7 @@ export default function Header() {
             <p>Hey👋, I am Anjali Vibhute </p>
             <h1>Fullstack Developer</h1>
             <a
-              href="../../public/AnjaliResume.pdf"
+              href="/AnjaliResume.pdf"
               download="Anjali_Vibhute_Resume.pdf"
             >
               <button className="getResume">Get Resume</button>
