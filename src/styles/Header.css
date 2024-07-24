@@ -12,7 +12,7 @@
 }
 @media (max-width: 500px) {
   .title h1 {
-    font-size: 2.2em !important;
+    font-size: 2em !important;
   }
   .home {
     width: fit-content;
@@ -24,4 +24,7 @@
   .title {
     margin-top: 13em;
     }
+  title p {
+    font-size: 1em;
+}
 }
