@@ -68,10 +68,14 @@
     font-size: 1em;
     font-family: Krub, sans-serif;
     width: 104%;
+    padding: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
   }
   .content {
     padding: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
+    
   }
 }
