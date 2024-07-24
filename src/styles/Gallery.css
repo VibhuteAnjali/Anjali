@@ -54,4 +54,8 @@
   .gallery-container .image img {
     width: 86vw;
   }
+    .project-info p {
+    font-size: 1em;
+    text-align: left;
+  }
 }
