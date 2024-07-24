@@ -8,7 +8,7 @@ export default function Header() {
       <div id="app">
         <div className="home" id="hero">
           <div className="blob">
-            <Blob />
+            <Blob className="mainBlob"/>
           </div>
           <div className="title typewriter">
             <p>Hey👋, I am Anjali Vibhute </p>
