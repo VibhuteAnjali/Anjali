@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin: 0em;
+  padding: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.383);
+}
+.navbar a {
+  font-weight: 400;
+  font-family: "Krub", sans-serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+.navbar a:hover {
+  color: #00b068;
+  font-size: 1.4em;
+}
+.Logo {
+  font-family: "Kaisei Tokumin", serif !important;
+  font-size: 1.4em !important;
+}

@@ -1,0 +1,84 @@
+.home {
+  margin: 2em;
+  margin-top: 5em;
+  height: 90vh;
+  width: 90vw;
+  text-align: center;
+}
+.typewriter h1 {
+  font-family: "Kaisei Tokumin", serif;
+  overflow: hidden;
+  border-right: 0.1em solid #00b068;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00b068;
+  }
+}
+.title {
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+  top: 15vw;
+}
+.title h1 {
+  font-size: 6em;
+  margin-top: 0em;
+}
+.title p {
+  font-size: 1.6em;
+}
+.getResume {
+  padding: 1.5em 3em;
+  border-radius: 3em;
+  border: navajowhite;
+  font-size: 1.05em;
+  color: #00b068;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 3em;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .title h1 {
+    font-size: 1em;
+    margin-top: 8em;
+  }
+}
+@media (max-width: 750px) {
+  .title h1 {
+    font-size: 1em;
+    margin-top: 21em;
+  }
+}
+@media (max-width: 500px) {
+  .title h1 {
+    font-size: 2.5em !important;
+    margin-top: 0em;
+  }
+  .home {
+    width: fit-content;
+    height: fit-content;
+  }
+}

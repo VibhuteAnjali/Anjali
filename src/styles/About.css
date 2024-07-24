@@ -1,0 +1,75 @@
+.about {
+  text-align: center;
+  /* padding: 3em; */
+}
+.heading {
+  text-shadow: 5px 6px 15px #ffffff40;
+  font-family: "Kaisei Tokumin", serif;
+  border-bottom: 1px solid;
+  border-top: 1px solid rgba(255, 255, 255, 0.519);
+}
+.about p {
+  font-size: 1.3em;
+  font-family: "Krub", sans-serif;
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.6;
+}
+.content {
+  display: flex;
+  align-items: stretch;
+}
+.blob1 {
+  width: 10%;
+}
+.blob2 {
+  width: 10%;
+}
+.about-content {
+  width: 80%;
+}
+.blob1 .tk-blob {
+  width: 20vw;
+  border: none;
+}
+.blob2 .tk-blob {
+  width: 10vw;
+  /* border: none; */
+}
+.content {
+  padding: 3.5em;
+}
+@media (max-width: 1123px) {
+  .about {
+    margin-top: 9em;
+  }
+  .about p {
+    font-size: 1.3em;
+    font-family: "Krub", sans-serif;
+    width: 82%;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.6;
+  }
+  .content {
+    align-items: center;
+    justify-content: center;
+  }
+  .blob1 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .blob2 {
+    display: none;
+  }
+  .about p {
+    padding: 0em;
+  }
+  .content {
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}

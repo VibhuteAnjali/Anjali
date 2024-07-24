@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+  .title {
+    font-size: 1em;
+    margin-top: 8em;
+  }
+}
+@media (max-width: 750px) {
+  .title {
+    font-size: 1em;
+    margin-top: 21em;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 1em !important;
+    margin-top: 15em;
+  }
+  .home {
+    width: fit-content;
+    height: fit-content;
+  }
+}

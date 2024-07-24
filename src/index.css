@@ -1,0 +1,17 @@
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #141414;
+  overflow-x: hidden;
+}
+html {
+  margin: 0;
+  display: contents;
+  width: 100vw;
+}
+body {
+  margin: 0px;
+}
+::selection {
+  background: #00b067b8; /* Change the background color to green */
+  color: white; /* Optional: Change the text color to white for better contrast */
+}

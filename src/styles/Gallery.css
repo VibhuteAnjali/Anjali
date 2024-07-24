@@ -1,0 +1,57 @@
+.gallery-container {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+.gallery-container .image img {
+  width: 55vw;
+  cursor: pointer;
+}
+.project-info {
+  padding: 5em;
+  width: 50%;
+}
+.project-info p {
+  font-family: "Kurb", serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.title-heading {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 1.5em;
+}
+.codeBtn {
+  padding: 1em 2em;
+  font-size: 1.3em;
+  border-radius: 2em;
+  border: none;
+  color: white;
+  background-color: #00b068;
+  margin-top: 2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+.codeBtn:hover {
+  background-color: #141414;
+  color: #00b068;
+  border: 1px solid #00b068;
+}
+@media (max-width: 1123px) {
+  .gallery-container {
+    flex-direction: column;
+  }
+  .project-info {
+    padding: 5em;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .gallery {
+    padding: 0em;
+  }
+  .gallery-container .image img {
+    width: 86vw;
+  }
+}

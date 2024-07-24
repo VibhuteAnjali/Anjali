@@ -1,0 +1,13 @@
+.tk-blob {
+  animation: blob-turn var(--time, 10s) linear infinite;
+  fill: var(--fill, #00b068);
+  position: relative;
+  transform-origin: center;
+  width: 32em;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 41em;
+}
+.blob-container {
+  width: 100vw;
+}
