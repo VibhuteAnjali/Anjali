@@ -42,12 +42,12 @@ img {
     width: 80vw;
   }
   .flex-horizontal .img2 {
-    width: 80vw;
+    width: 80vw !important;
   }
   .flex-horizontal .img2 {
-    width: 80vw;
+    width: 80vw !important;
   }
   .img3 {
-    width: 81vw;
+    width: 81vw !important;
   }
 }
