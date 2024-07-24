@@ -78,4 +78,7 @@
     margin-bottom: 1em;
     
   }
+  .about p{
+    text-align: left;
+  }
 }
