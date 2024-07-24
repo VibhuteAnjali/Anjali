@@ -50,4 +50,7 @@
   .socialMedia {
     margin-bottom: 1em;
   }
+  .footer .logo {
+    font-size: 2em;
+  }
 }
