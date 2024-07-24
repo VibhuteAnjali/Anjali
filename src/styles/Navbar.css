@@ -21,3 +21,8 @@
   font-family: "Kaisei Tokumin", serif !important;
   font-size: 1.4em !important;
 }
+@media (max-width:500px){
+  .navbar{
+    width: 86vw;
+  }
+} 
