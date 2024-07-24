@@ -21,4 +21,7 @@
    .mainBlob {
     width: 2ovw;
   }
+  .title {
+    margin-top: 13em;
+    }
 }
