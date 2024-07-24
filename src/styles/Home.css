@@ -80,5 +80,7 @@
   .home {
     width: fit-content;
     height: fit-content;
+    margin-left: 0em;
+    margin-right:0em;
   }
 }
