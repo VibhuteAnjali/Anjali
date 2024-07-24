@@ -1,4 +1,5 @@
 #root {
   box-sizing: border-box;
   width: 101vw;
+  overflow-x: hidden;
 }
