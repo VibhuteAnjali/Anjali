@@ -65,7 +65,9 @@
     display: none;
   }
   .about p {
-    padding: 0em;
+    font-size: 1em;
+    font-family: Krub, sans-serif;
+    width: 104%;
   }
   .content {
     padding: 0.5em;
