@@ -50,4 +50,7 @@ img {
   .img3 {
     width: 81vw !important;
   }
+  .project-ideas p {
+    font-size: 0.8em;
+  }
 }
