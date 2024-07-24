@@ -11,3 +11,8 @@
 .blob-container {
   width: 100vw;
 }
+@media (max-width: 500px) {
+  .tk-blob {
+    width: 101vw;
+  }
+}
