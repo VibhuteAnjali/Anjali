@@ -80,4 +80,9 @@
     font-size: 1em;
     text-align: left;
   }
+  .codeBtn {
+    padding: 1em 2em;
+    font-size: 1em;
+    gap:0em;
+  }
 }
