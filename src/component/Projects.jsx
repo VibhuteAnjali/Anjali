@@ -12,6 +12,7 @@ export default function Projects() {
       title: "Digital Marketing Website",
       url: "DigiAvisa",
       code: "https://github.com/VibhuteAnjali/DigiAvisaTech",
+      websiteLink: "https://digi-avisa-tech.vercel.app",
     },
     {
       para: "InstaEats is a social media platform I developed for food enthusiasts to review and discover restaurants. Utilizing ReactJS, CSS, and JavaScript for a responsive frontend, and NodeJS and ExpressJS for a robust backend, it offers a seamless user experience. The platform features cloud integration for scalable storage, allowing users to post reviews, share photos, and connect with a community of food lovers.",
@@ -19,6 +20,7 @@ export default function Projects() {
       title: "InstaEats Social Media Website",
       url: "InstaEats",
       code: "https://github.com/VibhuteAnjali/instaEats",
+      websiteLink: "",
     },
     {
       para: "WildOasis is a hotel management platform I developed to streamline operations. Using ReactJS, CSS, and JavaScript for the interface, and NodeJS with ExpressJS for the backend, it offers efficient check-in/check-out, cabin management, and real-time sales tracking. The intuitive dashboard provides a comprehensive overview of sales, guest status, and an interactive sales graph, enhancing operational efficiency and profitability.",
@@ -26,6 +28,7 @@ export default function Projects() {
       title: "Hotel Management Website",
       url: "WildOasis",
       code: "https://github.com/VibhuteAnjali/The-Wild-Oasis",
+      websiteLink: "https://thewildoasisapp.vercel.app",
     },
     {
       para: "Fairmont Grand is a hotel's Website I developed to facilitate user reservations and promote Fairmont Grand. Using ReactJS, CSS, and JavaScript for the interface, and NodeJS with ExpressJS for the backend, it allows users to easily book stays and helps showcases hotel amenities and offers, enhancing both user experience and hotel visibility.",
@@ -33,6 +36,7 @@ export default function Projects() {
       title: "Hotel Booking Website",
       url: "FairmontGrand",
       code: "https://github.com/VibhuteAnjali/Fairmont-Grand",
+      websiteLink: "https://fairmont-grand.vercel.app",
     },
   ];
 
@@ -51,6 +55,7 @@ export default function Projects() {
             url={project.url}
             index={i}
             code={project.code}
+            websiteLink={project.websiteLink}
           />
         </div>
       ))}
