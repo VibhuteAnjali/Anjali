@@ -85,4 +85,7 @@
     font-size: 1em;
     gap:0em;
   }
+  .buttonFlex{
+    gap: 2em;
+  }
 }
