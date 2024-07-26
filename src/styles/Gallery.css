@@ -32,11 +32,33 @@
   margin-top: 2em;
   cursor: pointer;
   text-decoration: none;
+  display: flex;
+  width: fit-content;
+  gap: 0.5em;
+  align-items: center;
 }
 .codeBtn:hover {
   background-color: #141414;
   color: #00b068;
   border: 1px solid #00b068;
+}
+.Nocurve {
+  border-radius: 0em !important;
+}
+.buttonFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+.disabledBtn {
+  display: flex;
+  align-items: center;
+  cursor: not-allowed;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  pointer-events: none;
 }
 @media (max-width: 1123px) {
   .gallery-container {
@@ -54,7 +76,7 @@
   .gallery-container .image img {
     width: 86vw;
   }
-    .project-info p {
+  .project-info p {
     font-size: 1em;
     text-align: left;
   }
