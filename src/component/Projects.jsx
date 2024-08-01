@@ -4,6 +4,7 @@ import img1 from "../assets/DAmock.png";
 import img2 from "../assets/MOCK2.png";
 import img3 from "../assets/WOMock.png";
 import img4 from "../assets/FGMock.png";
+import img5 from "../assets/PMock.png";
 export default function Projects() {
   const ProjectInfo = [
     {
@@ -37,6 +38,14 @@ export default function Projects() {
       url: "FairmontGrand",
       code: "https://github.com/VibhuteAnjali/Fairmont-Grand",
       websiteLink: "https://fairmont-grand.vercel.app",
+    },
+    {
+      para: "Promptopia is a dynamic platform designed to help users create and share prompts effortlessly. Whether you're looking to inspire creativity or seek ideas from others, Promptopia provides a seamless experience for crafting, editing, and deleting prompts. With the added convenience of Google authentication, users can easily log in and manage their prompts in a personalized and secure environment. Join Promptopia today and unlock a world of creative possibilities!",
+      image: img5,
+      title: "Promptopia- Prompt Sharing Website",
+      url: "Promptopia",
+      code: "https://github.com/VibhuteAnjali/promptopia",
+      websiteLink: "https://promptopiashareprompt.vercel.app/",
     },
   ];
 

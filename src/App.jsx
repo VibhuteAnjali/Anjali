@@ -7,6 +7,7 @@ import WildOasis from "./component/WildOasis";
 import FairmountGrand from "./component/FairmountGrand";
 import Footer from "./component/Footer";
 import AnimatedCursor from "react-animated-cursor";
+import Promptopia from "./component/Promptopia";
 export default function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/InstaEats" element={<InstaEats />} />
         <Route path="/WildOasis" element={<WildOasis />} />
         <Route path="/FairmontGrand" element={<FairmountGrand />} />
+        <Route path="/Promptopia" element={<Promptopia />} />
       </Routes>
       <Footer />
     </BrowserRouter>
