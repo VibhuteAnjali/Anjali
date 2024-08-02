@@ -5,6 +5,7 @@ export default function Courosel() {
     { text: "*CSS" },
     { text: "*JavaScript" },
     { text: "*ReactJs" },
+    { text: "*NextJs" },
     { text: "*NodeJs" },
     // Duplicates for seamless loop
     { text: "*ExpressJs" },
