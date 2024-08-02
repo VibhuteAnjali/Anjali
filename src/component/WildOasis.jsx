@@ -11,9 +11,19 @@ export default function WildOasis() {
       <Navbar />
       <div className="digiA">
         <div className="part1">
+          <h1 className="projectName">WildOasis - Hotel Management Website</h1>
+          <div className="skills">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JS</p>
+            <p>ReactJS</p>
+            <p>SQL</p>
+            <p>Node.js</p>
+            <p>Express.js</p>
+          </div>
           <div className="flex-horizontal">
             <div className="flex-vertical">
-              <img src={img} alt="da" className="img1" />
+              <img src={img} alt="websiteImg" className="img1" />
               <div className="project-ideas">
                 <p>
                   <span>*</span> Built with ReactJS, ensuring a smooth and
@@ -30,18 +40,18 @@ export default function WildOasis() {
               </div>
             </div>
             <div className="flex-vertical">
-              <img src={img3} alt="da" className="img_2" />
-              <img src={img2} alt="da" className="img_2" />
+              <img src={img3} alt="websiteImg" className="img_2" />
+              <img src={img2} alt="websiteImg" className="img_2" />
             </div>
           </div>
           <div className="flex-horizontal m-1">
             <div className="flex-horizontal">
               <div className="flex-vertical">
-                <img src={img4} alt="da" className="img_2" />
-                <img src={img5} alt="da" className="img_2" />
+                <img src={img4} alt="websiteImg" className="img_2" />
+                <img src={img5} alt="websiteImg" className="img_2" />
               </div>
               <div className="width-40">
-                <img src={img6} alt="da" className="img3" />
+                <img src={img6} alt="websiteImg" className="img3" />
                 <div className="project-ideas">
                   <p>
                     <span>*</span> Track key metrics such as total sales, the
