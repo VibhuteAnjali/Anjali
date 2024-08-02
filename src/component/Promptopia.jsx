@@ -16,8 +16,8 @@ export default function Promptopia() {
             <p>HTML</p>
             <p>CSS</p>
             <p>JS</p>
-            <p>ReactJS</p>
             <p>NextJs</p>
+            <p>Google Auth</p>
             <p>Tailwinds CSS</p>
             <p>MongoDB</p>
           </div>
