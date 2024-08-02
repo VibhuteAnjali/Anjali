@@ -13,9 +13,19 @@ export default function DigiAvisa() {
       <Navbar />
       <div className="digiA">
         <div className="part1">
+          <h1 className="projectName">DigiAvisa - Digital Marketing Website</h1>
+          <div className="skills">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JS</p>
+            <p>ReactJS</p>
+            <p>MongoDB</p>
+            <p>Node.js</p>
+            <p>Express.js</p>
+          </div>
           <div className="flex-horizontal">
             <div className="flex-vertical">
-              <img src={img} alt="da" className="img1" />
+              <img src={img} alt="websiteImg" className="img1" />
             </div>
             <div className="flex-vertical">
               <div className="project-ideas">
@@ -26,14 +36,14 @@ export default function DigiAvisa() {
                   <span>*</span> Appropriate use of fonts.
                 </p>
               </div>
-              <img src={img2} alt="da" className="img2" />
-              <img src={img3} alt="da" className="img2" />
+              <img src={img2} alt="websiteImg" className="img2" />
+              <img src={img3} alt="websiteImg" className="img2" />
             </div>
           </div>
           <div className="flex-horizontal">
             <div className="flex-horizontal">
-              <img src={Mimg1} alt="da" className="img2" />
-              <img src={Mimg2} alt="da" className="img2" />
+              <img src={Mimg1} alt="websiteImg" className="img2" />
+              <img src={Mimg2} alt="websiteImg" className="img2" />
             </div>
             <div className="flex-vertical">
               <div className="project-ideas">
@@ -46,7 +56,7 @@ export default function DigiAvisa() {
                   impactful.
                 </p>
               </div>
-              <img src={img4} alt="da" className="img3" />
+              <img src={img4} alt="websiteImg" className="img3" />
             </div>
           </div>
         </div>

@@ -34,6 +34,25 @@ img {
   text-shadow: 0 0 4px white;
   font-size: 1.4em;
 }
+.projectName {
+  text-align: center;
+  font-family: "Kaisei Tokumin";
+  margin-bottom: 0.5em;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+.skills p {
+  background: #00b068;
+  padding: 0.3em 1em;
+  color: white;
+  border-radius: 3em;
+  box-shadow: 5px 6px 17px black;
+}
 @media (max-width: 500px) {
   .flex-horizontal {
     flex-direction: column;
@@ -42,13 +61,13 @@ img {
     width: 80vw;
   }
   .flex-horizontal .img2 {
-    width: 80vw !important;
+    width: 80vw;
   }
   .flex-horizontal .img2 {
-    width: 80vw !important;
+    width: 80vw;
   }
   .img3 {
-    width: 81vw !important;
+    width: 80vw;
   }
   .project-ideas p {
     font-size: 0.8em;
