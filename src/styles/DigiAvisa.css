@@ -69,9 +69,17 @@ img {
     width: 80vw;
   }
   .img3 {
-    width: 80vw;
+    width: 80vw !important;
   }
   .project-ideas p {
     font-size: 0.8em;
+  }
+  .skills p {
+    margin: 2px;
+    font-size: 1em;
+  }
+  .skills {
+    gap: 0em;
+    margin-bottom: 0.5em;
   }
 }
